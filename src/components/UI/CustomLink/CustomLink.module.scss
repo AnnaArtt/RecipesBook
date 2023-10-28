@@ -1,0 +1,15 @@
+.nameLink {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin-right: 5px;
+}
+.nameLink:hover {
+  text-decoration: underline;
+}
+.activeLink {
+  text-decoration: underline;
+}

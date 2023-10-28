@@ -1,0 +1,38 @@
+.first_view {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  background: url("../../assets/background_first_veiw.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.slogan {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.type {
+  animation: type_effect 0.4s infinite alternate;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+@keyframes type_effect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

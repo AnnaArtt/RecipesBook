@@ -1,0 +1,32 @@
+@import "../../scss/main.scss";
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  align-items: center;
+  display: flex;
+  .logo_img {
+    position: relative;
+    height: 42px;
+    width: auto;
+  }
+
+  .logo_title {
+    position: relative;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+  }
+}

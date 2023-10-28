@@ -1,0 +1,42 @@
+.sectionWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0 10px 0;
+    .title {
+      position: relative;
+      margin-right: 10px;
+      font-size: 24px;
+    }
+
+    .input_dish {
+      font-size: 22px;
+      padding: 0 3px;
+      width: 35%;
+      margin-right: 10px;
+    }
+    .input_empty {
+      border-color: #ab1c56;
+    }
+
+    .button_dish {
+      width: 80px;
+      font-size: 22px;
+      background-color: #e13786;
+      color: #ffffff;
+      border: none;
+      border-radius: 2px;
+    }
+    .button_dish:hover {
+      background-color: #ab1c56;
+      color: #fffff0;
+    }
+  }
+}
