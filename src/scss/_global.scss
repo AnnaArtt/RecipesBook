@@ -31,21 +31,7 @@ body {
   font-family: $primary-font;
   font-weight: 400;
   font-size: 16px;
-  color: $textblack;
+  color: #000000;
   background-color: $white;
   position: relative;
-}
-
-@mixin activeNavLink {
-  background: $primary;
-  padding: 13px 18px;
-  border-radius: 15px;
-  text-decoration: none;
-  color: $white;
-  font-family: $primary-font;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 18px;
-  border: none;
 }
